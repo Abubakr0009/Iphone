@@ -1,30 +1,69 @@
 import React from 'react'
-import Phone from "../../img/.png"
+// import Phone from "../../img/.png"
 import "./index.css"
 
 function Main() {
   return (
     <div> 
-        <main>
-    <div className="container">
-      <div className="information_cards">
-        <div className="cards">
-          <h1>iPhone 12 Pro</h1>
-          <p>
-            The iPhone 12 Pro and iPhone 12 Pro Max are part of Apple's latest generation of smartphones, 
-            offering 5G connectivity, the A14 chip for better performance.
-          </p>
-          <div className="btns">
-            <button>Order now</button>
-            <button className="more">Learn more</button>
-          </div>
+      <main>
+        <div class="conatainer">
+            <ul>
+                <li><a href="!"> <span>Гамбургеры</span> </a></li>
+                <li><a href="!">Хот доги</a></li>
+                <li><a href="!">Пицца</a></li>
+                <li><a href="!">Напитки</a></li>
+                <li><a href="!">Соки</a></li>
+
+            </ul>
+
+            <div class="cards">
+                <div class="card">
+                    <img src="./main_img.png" alt=""/>
+                    <button>14 500</button>
+                    <h5>C  ГОВЯДИНОЙ</h5>
+                    <p>Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом</p>
+                </div>
+                <div class="card">
+                    <img src="./main_img.png" alt=""/>
+                    <button>14 500</button >
+                    <h5>C  ГОВЯДИНОЙ</h5>
+                    <p>Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом</p>
+                </div>
+             
+                <div class="card">
+                    <img src="./main_img.png" alt=""/>
+                    <button>14 500</button>
+                    <h5>C  ГОВЯДИНОЙ</h5>
+                    <p>Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом</p>
+                </div>
+             
+             
+            </div>
+            <div class="cards_2">
+                <div class="card">
+                    <img src="./main_img.png" alt=""/>
+                    <button>14 500</button>
+                    <h5>C  ГОВЯДИНОЙ</h5>
+                    <p>Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом</p>
+                </div>
+             
+                <div class="card">
+                    <img src="./main_img.png" alt=""/>
+                    <button>14 500</button>
+                    <h5>C  ГОВЯДИНОЙ</h5>
+                    <p>Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом</p>
+                </div>
+             
+                <div class="card">
+                    <img src="./main_img.png" alt=""/>
+                    <button>14 500</button>
+                    <h5>C  ГОВЯДИНОЙ</h5>
+                    <p>Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом</p>
+                </div>
+              </div>
+
         </div>
-        <div className="information_img">
-          <img src={Phone} alt="iPhone 12 Pro" /> 
-        </div>
-      </div>
-    </div>
-  </main>
+    </main>
   </div>
   )
 }
