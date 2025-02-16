@@ -10,6 +10,7 @@ function Header() {
         <a href="!" className="hover:text-green-400 transition-all duration-300 ease-in-out">Напитки</a>
         <a href="!" className="hover:text-green-400 transition-all duration-300 ease-in-out">Соки</a>
       </nav>
+      <h1>aaaa</h1>
     </header>
   );
 }
